@@ -19,15 +19,15 @@ function createMarkupSwiper(arrSliders) {
     arrSliders
       .map(
         ({ cook, topic }) =>
-          `<div class="hero_swiper-slide card" id="twist">
-                <div class=" hero_slider-images">
-                    <div class="hero_image-container-1"><img class="image-1" src=${cook.imgUrl} alt=${cook.name}></div>
-                    <div class="hero_image-container-2">
-                        <img class="hero_image-2" src=${topic.previewUrl} alt=${cook.name}>
-                        <h2 class="hero_image-title">${topic.name}</h2>
-                        <p class="hero_image-descraption">${topic.area}</p>
+          `<div class="swiper-slide" id="twist">
+                <div class="slider-images card">
+                    <div class="image-container-1"><img class="image-1" src=${cook.imgUrl} alt=${cook.name}></div>
+                    <div class="image-container-2">
+                        <img class="image-2" src=${topic.previewUrl} alt=${cook.name}>
+                        <h2 class="image-title">${topic.name}</h2>
+                        <p class="image-descraption">${topic.area}</p>
                     </div>
-                    <div class="hero_image-container-3"><img class="image-3" src=${topic.imgUrl} alt=${cook.name}></div>
+                    <div class="image-container-3"><img class="image-3" src=${topic.imgUrl} alt=${cook.name}></div>
                 </div>
             </div>`
       )
