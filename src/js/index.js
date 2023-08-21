@@ -37,8 +37,8 @@ function createMarkupSwiper(arrSliders) {
 }
 
 const swiper = new Swiper('.swiper', {
-  modules: [Pagination, Navigation],
-  allowSlideNext: true,
+  // modules: [Pagination, Navigation],
+  // allowSlideNext: true,
   direction: 'horizontal',
   loop: true,
   // speed: 800,
