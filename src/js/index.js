@@ -1,6 +1,6 @@
 import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper';
-Swiper.use([Navigation, Pagination]);
+// import { Navigation, Pagination } from 'swiper';
+// Swiper.use([Navigation, Pagination]);
 import 'swiper/swiper-bundle.min.css';
 
 import { fetchMasterClass } from './tastyApi';
@@ -37,8 +37,6 @@ function createMarkupSwiper(arrSliders) {
 }
 
 const swiper = new Swiper('.swiper', {
-  // modules: [Pagination, Navigation],
-  // allowSlideNext: true,
   direction: 'horizontal',
   loop: true,
   // speed: 800,
