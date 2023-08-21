@@ -1,7 +1,7 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper';
 Swiper.use([Navigation, Pagination]);
-import 'swiper/swiper-bundle.css';
+import 'swiper/swiper-bundle.min.css';
 
 import { fetchMasterClass } from './tastyApi';
 
@@ -21,13 +21,13 @@ function createMarkupSwiper(arrSliders) {
         ({ cook, topic }) =>
           `<div class="swiper-slide" id="twist">
                 <div class="slider-images card">
-                    <div class="image-container-1"><img class="image-1" src=${cook.imgUrl} alt=${cook.name}></div>
+                    <div class="image-container-1"><img class="image-1" src="${cook.imgUrl}" alt="${cook.name}"></div>
                     <div class="image-container-2">
-                        <img class="image-2" src=${topic.previewUrl} alt=${cook.name}>
+                        <img class="image-2" src="${topic.previewUrl}" alt="${cook.name}">
                         <h2 class="image-title">${topic.name}</h2>
-                        <p class="image-descraption">${topic.area}</p>
+                        <p class="image-descraption">"${topic.area}"</p>
                     </div>
-                    <div class="image-container-3"><img class="image-3" src=${topic.imgUrl} alt=${cook.name}></div>
+                    <div class="image-container-3"><img class="image-3" src="${topic.imgUrl}" alt="${cook.name}"></div>
                 </div>
             </div>`
       )
