@@ -53,9 +53,9 @@ const swiper = new Swiper('.swiper', {
     clickable: true,
     dynamicBullets: true,
   },
-  // autoplay: {
-  //   delay: 1500,
-  // },
+  autoplay: {
+    delay: 1500,
+  },
 
   navigation: {
     nextEl: '.swiper-button-next',
