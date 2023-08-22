@@ -43,15 +43,15 @@ const swiper = new Swiper('.swiper', {
   loop: true,
   // speed: 800,
 
-  pagination: {
-    el: '.swiper-pagination',
-    // allowSlideNext: true,
-    clickable: true,
-    dynamicBullets: true,
-  },
-  autoplay: {
-    delay: 1500,
-  },
+  // pagination: {
+  //   el: '.swiper-pagination',
+  //   // allowSlideNext: true,
+  //   clickable: true,
+  //   dynamicBullets: true,
+  // },
+  // autoplay: {
+  //   delay: 1500,
+  // },
 
   navigation: {
     nextEl: '.swiper-button-next',
