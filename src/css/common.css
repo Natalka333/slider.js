@@ -1,8 +1,17 @@
-.dark-theme .title {
+.dark-theme .hero-title {
+  color: #fff;
 }
 .dark-theme .hero-subtitle {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 14px 0 28px;
 }
 .dark-theme .hero-btn {
+  color: #fff;
 }
 .dark-theme .swiper-pagination-bullet {
   color: #fff;
