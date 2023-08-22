@@ -2,10 +2,25 @@
 // import { Navigation, Pagination } from 'swiper';
 // Swiper.use([Navigation, Pagination]);
 // import 'swiper/swiper-bundle.min.css';
+import axios from 'axios';
 import Swiper from 'swiper/swiper-bundle.min.mjs';
 import '../../node_modules/swiper/swiper-bundle.css';
 
-import { fetchMasterClass } from './tastyApi';
+const BASE_URL = `https://tasty-treats-backend.p.goit.global/api/events`;
+
+async function fetchMasterClass() {
+  try {
+    const response = await axios.get(BASE_URL);
+
+    if (response.status === 404) {
+      throw new Error(response.status);
+    }
+    console.log(response.data);
+    return response.data;
+  } catch (error) {
+    console.log('error');
+  }
+}
 
 fetchMasterClass()
   .then(data => {
