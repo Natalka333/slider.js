@@ -1,7 +1,9 @@
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
 // import { Navigation, Pagination } from 'swiper';
 // Swiper.use([Navigation, Pagination]);
-import 'swiper/swiper-bundle.min.css';
+// import 'swiper/swiper-bundle.min.css';
+import Swiper from 'swiper/swiper-bundle.min.mjs';
+import '../../node_modules/swiper/swiper-bundle.css';
 
 import { fetchMasterClass } from './tastyApi';
 
@@ -45,7 +47,7 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
     // allowSlideNext: true,
     clickable: true,
-    // dynamicBullets: true,
+    dynamicBullets: true,
   },
   autoplay: {
     delay: 1500,
