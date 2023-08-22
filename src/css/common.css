@@ -5,7 +5,9 @@
   max-width: 496px;
   height: 302px;
 }
-.swiper-slide {
+.swiper-slide .twist {
+  display: flex;
+  flex-direction: row;
 }
 .slider-images {
 }
@@ -20,7 +22,7 @@
   background: #050505;
 }
 
-.card {
+.slider-card {
   width: 497px;
   height: 302px;
   display: inline-flex;
@@ -31,6 +33,7 @@
 .image-container-1 {
   width: 122px;
   height: 305px;
+  display: flex;
 }
 
 .image-1 {
@@ -46,6 +49,7 @@
   border-radius: 15px;
   border: 1px solid rgba(155, 181, 55, 0.3);
   background: #050505;
+  display: flex;
   position: relative;
 }
 .image-2 {
@@ -96,6 +100,7 @@
   border-radius: 15px;
   border: 1px solid rgba(155, 181, 55, 0.3);
   background: #050505;
+  display: flex;
 }
 
 /* .image-3 {
