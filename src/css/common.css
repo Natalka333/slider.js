@@ -36,6 +36,7 @@
 .image-1 {
   width: 109px;
   height: 272px;
+  object-fit: cover;
   /* background: url(<path-to-image>),
     lightgray -135.558px 13.188px / 348.73% 95.152% no-repeat; */
 }
