@@ -1,0 +1,132 @@
+.dark-theme .title {
+}
+.dark-theme .hero-subtitle {
+}
+.dark-theme .hero-btn {
+}
+.dark-theme .swiper-pagination-bullet {
+}
+.dark-theme .swiper-pagination-bullet-active {
+}
+
+.hero-list {
+  /* mobile */
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-list {
+    /* tablet */
+    padding-top: 65px;
+    padding-bottom: 40px;
+  }
+}
+
+.hero-list {
+  /* desctop */
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.card {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 496px;
+  height: 302px;
+}
+.swiper-slide {
+}
+.slider-images {
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 1px solid rgba(155, 181, 55, 0.3);
+  background: #050505;
+}
+
+.card {
+  width: 497px;
+  height: 302px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.image-container-1 {
+  width: 122px;
+  height: 305px;
+}
+
+.image-1 {
+  width: 109px;
+  height: 272px;
+  /* background: url(<path-to-image>),
+    lightgray -135.558px 13.188px / 348.73% 95.152% no-repeat; */
+}
+.image-container-2 {
+  width: 200px;
+  height: 280px;
+  border-radius: 15px;
+  border: 1px solid rgba(155, 181, 55, 0.3);
+  background: #050505;
+  position: relative;
+}
+.image-2 {
+  width: 157px;
+  height: 142px;
+
+  flex-shrink: 0;
+}
+.image-title {
+  width: 144px;
+  height: auto;
+  color: rgba(248, 248, 248, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  left: 28px;
+  right: 28px;
+  bottom: 30px;
+  padding: 222px 28px 30px 28px;
+  margin-bottom: 4px;
+  position: absolute;
+  z-index: 1;
+}
+
+.image-descraption {
+  width: 24px;
+  height: auto;
+  color: rgba(248, 248, 248, 0.2);
+  text-align: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  left: 88px;
+  right: 88px;
+  bottom: 14px;
+  position: absolute;
+  z-index: 1;
+}
+.image-container-3 {
+  width: 200px;
+  height: 280px;
+  border-radius: 15px;
+  border: 1px solid rgba(155, 181, 55, 0.3);
+  background: #050505;
+}
+
+/* .image-3 {
+} */
