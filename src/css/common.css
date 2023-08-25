@@ -4,26 +4,11 @@
   max-width: 375px;
 }
 
-.hero-section {
-  /* mobile */
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-
 @media screen and (min-width: 768px) {
   .swiper-container {
     max-width: 768px;
     margin-top: 64px;
     padding-left: 32px;
-  }
-
-  .container.hero-container {
-    max-width: 768px;
-  }
-  .hero-section {
-    /* tablet */
-    padding-top: 65px;
-    padding-bottom: 40px;
   }
 
   .swiper-container {
@@ -37,22 +22,6 @@
   .swiper-container {
     max-width: 734px;
     padding-left: 0;
-  }
-
-  .container {
-    max-width: 1104px;
-    /* padding: 0 12px; */
-  }
-  .container.hero-container {
-    align-items: center;
-    display: flex;
-    overflow: visible;
-  }
-
-  .hero-section {
-    /* desctop */
-    padding-top: 60px;
-    padding-bottom: 50px;
   }
 }
 
