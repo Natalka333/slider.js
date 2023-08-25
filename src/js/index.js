@@ -1,6 +1,6 @@
 // import Swiper from 'swiper';
-// import { Navigation, Pagination } from 'swiper';
-// Swiper.use([Navigation, Pagination]);
+import { Navigation, Pagination } from 'swiper';
+Swiper.use([Navigation, Pagination]);
 // import 'swiper/swiper-bundle.min.css';
 import axios from 'axios';
 import Swiper from 'swiper/swiper-bundle.min.mjs';
